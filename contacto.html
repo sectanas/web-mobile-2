@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - IMAGO</title>
+
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <header>
+        <h2>IMAGO</h2>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="proceso.html">Proceso</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <div class="hero">
+            <h1>Hablemos de tu marca</h1>
+            <p>
+                Cuéntame un poco sobre ti y sobre lo que quieres conseguir.
+                Estoy aquí para ayudarte a construir tu marca personal.
+            </p>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="seccion">
+            <h2>Formulario de contacto</h2>
+
+            <form class="formulario" action="#" method="post">
+
+                <label for="nombre">Nombre</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                >
+
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Cuéntame qué tienes en mente..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">Enviar mensaje</button>
+
+            </form>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 - Creado para Marca Personal</p>
+    </footer>
+
+</body>
+</html>
